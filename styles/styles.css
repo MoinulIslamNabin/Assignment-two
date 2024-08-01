@@ -7,6 +7,10 @@ body {
     margin: 0 auto;
 }
 
+span {
+    font-family: "Great Vibes", cursive;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -105,14 +109,20 @@ body {
     line-height: 24px;
 }
 
+/* gradient */
+
+
 /* header section */
 
 .hamburger {
     display: none;
 }
 
-.headerbg {
-    background-color: #111111;
+.bgGradient {
+    /* background-image: radial-gradient( #242323 ,#111111, #000000); */
+    background-image: repeating-linear-gradient(#000000 -40% ,#111111 50% , #000000 160% );
+    height: 715px;
+ 
 
 }
 
@@ -120,7 +130,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 58px 190px;
+    padding: 40px 180px;
+    
+
 
 }
 
@@ -128,7 +140,6 @@ body {
     color: rgb(230, 83, 60);
 }
 
-.navigation {}
 
 ul {
     display: flex;
@@ -142,7 +153,7 @@ ul {
 
 ul li {
     list-style-type: none;
-    margin-left: 47px;
+    margin-left: 25px;
     padding: 8px 20px;
     border-radius: 46px;
     color: white;
@@ -167,6 +178,13 @@ ul li:hover a {
 
 a {
     text-decoration: none;
+}
+
+/* banner-styles */
+
+.hero {
+    padding: 20px 0px;
+    
 }
 
 /* responsive */
@@ -227,5 +245,5 @@ a {
         height: 45px;
     }
 
-    .page-title {}
+    
 }
