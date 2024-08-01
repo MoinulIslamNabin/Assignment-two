@@ -1,0 +1,100 @@
+/* body common part section css */
+
+body {
+
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1044px;
+    margin: auto;
+}
+
+.bgBlack {
+    background-color: #000000;
+}
+
+.bgGray {
+    background-color: #222222;
+}
+
+.font48 {
+    font-size: 48px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font23 {
+    font-size: 23px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.fontw800 {
+    font-weight: 800;
+}
+
+.fontw600 {
+    font-weight: 600;
+}
+
+.fontw500 {
+    font-weight: 500;
+}
+
+.fontw400 {
+    font-weight: 400;
+}
+
+.fontwbolder {
+    font-weight: bolder;
+
+}
+
+.opacity5 {
+    opacity: 0.5
+}
+
+.opacity6 {
+    opacity: 0.6
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorBlack {
+    color: black;
+}
+
+.lineheight24 {
+    line-height: 24px;
+}
+
+
