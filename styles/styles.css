@@ -24,6 +24,10 @@ span {
     background-color: #222222;
 }
 
+.font100 {
+    font-size: 100px;
+}
+
 .font78 {
     font-size: 78px;
 }
@@ -109,8 +113,6 @@ span {
     line-height: 24px;
 }
 
-/* gradient */
-
 
 /* header section */
 
@@ -120,9 +122,9 @@ span {
 
 .bgGradient {
     /* background-image: radial-gradient( #242323 ,#111111, #000000); */
-    background-image: repeating-linear-gradient(#000000 -40% ,#111111 50% , #000000 160% );
-    height: 715px;
- 
+    background-image: repeating-linear-gradient(#000000 -20%, #242323 50%, #000000 100%);
+    height: 680px;
+
 
 }
 
@@ -131,9 +133,6 @@ span {
     align-items: center;
     justify-content: space-between;
     padding: 40px 180px;
-    
-
-
 }
 
 .page-title {
@@ -170,10 +169,7 @@ ul li:first-child {
 ul li:hover {
     background-color: #E6533C;
 
-}
 
-ul li:hover a {
-    font-weight: 600;
 }
 
 a {
@@ -184,8 +180,81 @@ a {
 
 .hero {
     padding: 20px 0px;
-    
+    display: flex;
+
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 570px;
+    height: 440px;
+    margin-top: -40px;
+    margin-right: 150px;
+}
+
+.banner-title {
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.banner-description {
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    padding: 16px 40px;
+    background: rgb(230, 83, 60);
+    border: none; 
+    margin-right: 14px;
+    margin-left: 0px;
+    text-align: center;
+    cursor: pointer;
+    transition:all .3s;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border: 1px solid white;
+}
+
+
+.btn-secondary {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 42px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn-secondary:hover {
+    background: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60); 
+}
+
+.img-1 {
+    position: relative;
+    height: 525px;
+    margin-left: 0px;
+    margin-top: -40px;
+}
+
+.img-1>img {
+    height: 100%;
+}
+
 
 /* responsive */
 
@@ -245,5 +314,5 @@ a {
         height: 45px;
     }
 
-    
+
 }
