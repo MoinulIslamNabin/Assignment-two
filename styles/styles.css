@@ -213,12 +213,12 @@ a {
     border-radius: 42px;
     padding: 16px 40px;
     background: rgb(230, 83, 60);
-    border: none; 
+    border: none;
     margin-right: 14px;
     margin-left: 0px;
     text-align: center;
     cursor: pointer;
-    transition:all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .btn-primary:hover {
@@ -328,6 +328,10 @@ a {
 
     /* shared-styles */
 
+    .font100 {
+        font-size: 70px
+    }
+
     .font78 {
         font-size: 36px;
     }
@@ -360,8 +364,10 @@ a {
         font-size: 10px;
     }
 
+
+
     .header {
-        padding: 20px 52px;
+        padding: 20px 0px;
     }
 
     .container {
@@ -380,5 +386,47 @@ a {
         height: 45px;
     }
 
+    /* hero */
 
+    .bgGradient {
+        height: 1050px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .banner {
+        width: 515px;
+        height: 360px;
+    }
+
+    .banner-title {
+        line-height: 55px;
+        width: 285px;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+
+    .banner-description {
+        width: 290px;
+    }
+
+    .img-1 {
+        margin-top: 48px;
+        margin-left: 110px;
+    }
+
+    .blur-1 {
+        width: 145px;
+        height: 75px;
+        top: 50px;
+    }
+
+    .blur-2 {
+        width: 175px;
+        height: 70px;
+        right: 290px;
+        top: 235px;
+    }
 }
