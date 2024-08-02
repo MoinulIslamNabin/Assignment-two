@@ -113,7 +113,6 @@ span {
     line-height: 24px;
 }
 
-
 /* header section */
 
 .hamburger {
@@ -158,7 +157,7 @@ ul li {
     color: white;
     size: 18px;
     text-align: center;
-
+    transition: all .2s;
 
 }
 
@@ -206,6 +205,8 @@ a {
     margin-bottom: 28px;
 }
 
+/* button start */
+
 .btn-primary {
     width: 224px;
     height: 54px;
@@ -217,32 +218,34 @@ a {
     margin-left: 0px;
     text-align: center;
     cursor: pointer;
-    transition:all .3s;
+    transition:all .3s ease-in-out;
 }
 
 .btn-primary:hover {
     background: transparent;
-    border: 1px solid white;
+    border: 1px solid rgb(230, 83, 60);
+    color: rgb(230, 83, 60);
 }
-
 
 .btn-secondary {
     width: 224px;
     height: 54px;
     padding: 16px 40px;
-    background-color: transparent;
+    background: transparent;
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 42px;
     text-align: center;
     cursor: pointer;
-    transition: all .3s;
+    transition: all .3s ease-in-out;
 }
 
 .btn-secondary:hover {
-    background: rgb(230, 83, 60);
-    border: 1px solid rgb(230, 83, 60); 
+    background: white;
+    color: #000000;
 }
+
+/* button end */
 
 .img-1 {
     position: relative;
@@ -254,6 +257,69 @@ a {
 .img-1>img {
     height: 100%;
 }
+
+/* blurbox start */
+
+.blur-1,
+.blur-2 {
+    display: flex;
+    position: absolute;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.blur-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 180px;
+    height: 98px;
+    left: 205px;
+    top: 100px;
+}
+
+.blur-2 {
+    justify-content: space-between;
+    align-items: center;
+    width: 195px;
+    height: 96px;
+    right: 230px;
+    top: 375px;
+}
+
+.seperation {
+    margin: 0px 15px 0px 6px;
+}
+
+.blur-title-1 {
+    text-align: left;
+    margin: -5px 0px 0px 24px;
+}
+
+.blur-title-2 {
+    margin: -5px 0px 5px 0px;
+}
+
+.blur-description-1 {
+    margin: 0px 0px 0px 24px;
+}
+
+.blur-description-2 {
+    margin: 0px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 100%;
+    margin-left: 23px;
+    margin-right: 0px;
+}
+
 
 
 /* responsive */
