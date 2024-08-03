@@ -1,8 +1,5 @@
 /* body common part section css */
 
-/* * {
-    border: 1px solid pink;
-} */
 
 body {
 
@@ -17,7 +14,8 @@ span {
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto; 
+  
 }
 
 .bgBlack {
@@ -384,8 +382,8 @@ a {
     }
 
     .container {
-        max-width: 90%;
-        margin-left: 20px;
+        padding: 10px 10px;
+       
     }
 
     /* header section */
@@ -454,15 +452,15 @@ a {
     .blur-1 {
         width: 130px;
         height: 60px;
-        top: 50px;
-        left: 180px;
+        top: 10%;
+        left: 60%;
     }
 
     .blur-2 {
         width: 150px;
         height: 70px;
-        right: 190px;
-        top: 230px;
+        right: 64%;
+        top: 42%;
         justify-content: space-around;
     }
 
