@@ -282,17 +282,17 @@ a {
     align-items: flex-start;
     width: 180px;
     height: 98px;
-    left: 205px;
-    top: 100px;
+    left: 60%;
+    top: 20%;
 }
 
 .blur-2 {
     justify-content: space-between;
     align-items: center;
     width: 195px;
-    height: 96px;
-    right: 230px;
-    top: 375px;
+    height: 90px;
+    right: 75%;
+    top: 65%;
 }
 
 .seperation {
