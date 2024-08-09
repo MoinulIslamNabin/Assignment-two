@@ -17,8 +17,9 @@ span {
 
 .container {
     max-width: 1000px;
-    margin: 0 auto; 
-  
+    margin: 0 auto;
+    padding: .5px;
+
 }
 
 .bgBlack {
@@ -145,7 +146,7 @@ span {
 }
 
 .page-title:hover {
-    transform: scale(1.15) skewX(13deg) 
+    transform: scale(1.15) skewX(13deg)
 }
 
 
@@ -199,7 +200,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     margin-top: -40px;
-    
+
 }
 
 .banner-title {
@@ -262,7 +263,7 @@ a {
     margin-left: 0px;
     margin-top: -40px;
 }
- 
+
 .image>img {
     width: 90%;
 }
@@ -345,52 +346,88 @@ a {
     margin-bottom: -15px;
 }
 
-.section-title {
-   margin: 0;
+.habit-section-title {
+    margin: 0;
 }
- .section-description {
-    text-align: center;
- }
 
- .habit-content-2 {
+.habit-section-description {
+    text-align: center;
+}
+
+.habit-content-2 {
     display: flex;
     align-items: center;
     justify-content: center;
- }
+}
 
- .card-1 {
+.card-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 58px 40px 0px 40px;
- }
+}
 
- .card-2 {
+.card-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px 40px 0px 40px;
- }
+}
 
- .habit-img>img {
+.habit-img>img {
     border: 5px solid rgb(31, 30, 30);
     border-radius: 100%;
     transition: border 0.3s ease-in-out;
- }
+}
 
- .habit-img>img:hover {
-    border: 5px solid rgb(230, 83, 60);;
- }
+.habit-img>img:hover {
+    border: 5px solid rgb(230, 83, 60);
+    ;
+}
 
- .card-title {
+.card-title {
     text-align: center;
     margin: 20px 0px 5px 0px;
- }
+}
 
- .card-description {
+.card-description {
     text-align: center;
     margin: 5px 0px 0px 0px;
- }
+}
+
+/* habit section end */
+
+/* task section start */
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 18px;
+    padding: 30px;
+    background: rgb(34, 34, 34);
+}
+
+.task-content-1 {
+    margin: 0px 0px 0px 30px;
+}
+
+.task-section-title {
+    margin: 0;
+    text-align: left;
+}
+
+.task-section-description {
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.task>img {
+    width: 31%;
+    border-radius: 18px;
+}
 
 /* responsive */
 
@@ -424,11 +461,11 @@ a {
 
     .font24 {
         font-size: 18px;
-   }
+    }
 
-   .font18 {
-    font-size: 14px;
-   }
+    .font18 {
+        font-size: 14px;
+    }
 
     .font16 {
         font-size: 13px;
@@ -448,7 +485,7 @@ a {
 
     .container {
         padding: 10px 10px;
-       
+
     }
 
     /* header section */
@@ -536,7 +573,7 @@ a {
     }
 
     .seperation {
-        margin: 0px 5px 0px 5px; 
+        margin: 0px 5px 0px 5px;
     }
 
     .blur-title-1 {
@@ -558,10 +595,12 @@ a {
     }
 
     .card-1 {
-        margin: 58px 40px 5px 40px;
+        margin: 48px 40px 5px 40px;
     }
 
     .card-2 {
         margin: 48px 40px 5px 40px;
     }
+
+    /* habit end */
 }
