@@ -378,6 +378,7 @@ a {
     border: 5px solid rgb(31, 30, 30);
     border-radius: 100%;
     transition: border 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .habit-img>img:hover {
@@ -427,6 +428,10 @@ a {
 .task>img {
     width: 31%;
     border-radius: 18px;
+}
+
+.img-resp {
+    display: none;
 }
 
 /* responsive */
@@ -484,7 +489,7 @@ a {
     }
 
     .container {
-        padding: 10px 10px;
+        padding: 10px 15px;
 
     }
 
@@ -519,13 +524,13 @@ a {
 
     .banner-title {
         line-height: 55px;
-        width: 70%;
+        width: 85%;
         margin-bottom: 20px;
         font-size: 50px;
     }
 
     .banner-description {
-        width: 70%;
+        width: 75%;
     }
 
     .btn-primary {
@@ -603,4 +608,38 @@ a {
     }
 
     /* habit end */
+
+    /* task start */
+
+    .task {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .task-content-1 {
+        margin: 0;
+    }
+
+    .task-btn {
+        margin: -15px 0px 30px 0px;
+        padding: 20px 40px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .t-br {
+        display: block;
+    }
+
+    .task>img {
+        width: 100%;
+    }
+
+    .img-def {
+        display: none;
+    }
+
+    .img-resp {
+        display: block;
+    }
 }
