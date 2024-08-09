@@ -1,5 +1,8 @@
 /* body common part section css */
 
+* {
+    /* border: 1px solid yellowgreen; */
+}
 
 body {
 
@@ -138,6 +141,11 @@ span {
 
 .page-title {
     color: rgb(230, 83, 60);
+    transition: all 0.3s ease-in-out;
+}
+
+.page-title:hover {
+    transform: scale(1.15) skewX(13deg) 
 }
 
 
@@ -287,16 +295,12 @@ a {
 }
 
 .blur-2 {
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 195px;
-    height: 90px;
+    width: 190px;
+    height: 85px;
     right: 75%;
-    top: 65%;
-}
-
-.seperation {
-    margin: 0px 15px 0px 6px;
+    top: 67%;
 }
 
 .blur-title-1 {
@@ -321,11 +325,72 @@ a {
     height: 40px;
     background: rgb(230, 83, 60);
     border-radius: 100%;
-    margin-left: 23px;
     margin-right: 0px;
 }
 
+/* habit-start */
 
+.habit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.habit-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.section-title {
+   margin: 0;
+}
+ .section-description {
+    text-align: center;
+ }
+
+ .habit-content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 58px 40px 0px 40px;
+ }
+
+ .card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 40px 0px 40px;
+ }
+
+ .habit-img>img {
+    border: 5px solid rgb(31, 30, 30);
+    border-radius: 100%;
+    transition: border 0.3s ease-in-out;
+ }
+
+ .habit-img>img:hover {
+    border: 5px solid rgb(230, 83, 60);;
+ }
+
+ .card-title {
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+ }
+
+ .card-description {
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+ }
 
 /* responsive */
 
@@ -480,5 +545,23 @@ a {
 
     .blur-description-1 {
         margin: 0px 0px 0px 15px;
+    }
+
+    /* habit-start */
+
+    .habit-content-1 {
+        margin-top: -70px;
+    }
+
+    .habit-content-2 {
+        flex-direction: column;
+    }
+
+    .card-1 {
+        margin: 58px 40px 5px 40px;
+    }
+
+    .card-2 {
+        margin: 48px 40px 5px 40px;
     }
 }
