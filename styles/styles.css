@@ -434,6 +434,40 @@ a {
     display: none;
 }
 
+/* task section end */
+
+/* team section start */
+
+.team {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.team-section-title {
+    margin: 0;
+}
+
+.team-section-description {
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-content-2 {
+    max-width: 1000px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
 /* responsive */
 
 @media screen and (max-width:576px) {
@@ -642,4 +676,6 @@ a {
     .img-resp {
         display: block;
     }
+
+    /* task end */
 }
