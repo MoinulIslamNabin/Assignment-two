@@ -423,6 +423,7 @@ a {
     text-align: left;
     margin-bottom: 30px;
     line-height: 24px;
+    width: 90%;
 }
 
 .task>img {
@@ -464,9 +465,170 @@ a {
 
 .team-content-2 {
     max-width: 1000px;
+    width: 95%;
     border-radius: 18px;
     background: rgb(34, 34, 34);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
 }
+
+.item-text {
+    position: absolute;
+    top: 77%;
+    left: 5%;
+    z-index: 2;
+}
+
+.item-title,
+.item-description {
+    margin: 0;
+}
+
+.item-1 {
+    border-radius: 18px;
+    padding: 110px 0px 110px 0px;
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.item-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    opacity: 20%;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.item-2 {
+    border-radius: 18px;
+    padding: 110px 0px 110px 0px;
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.item-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    opacity: 20%;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.item-3 {
+    border-radius: 18px;
+    padding: 110px 0px 110px 0px;
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.item-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    opacity: 20%;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.item-4 {
+    border-radius: 18px;
+    padding: 110px 0px 110px 0px;
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+    position: relative
+}
+
+.item-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    opacity: 20%;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.item-5 {
+    border-radius: 18px;
+    padding: 110px 0px 110px 0px;
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    position: relative
+}
+
+.item-5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    opacity: 20%;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.item-6 {
+    border-radius: 18px;
+    padding: 110px 0px 110px 0px;
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.item-6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    opacity: 20%;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+/* team end */
+
 
 /* responsive */
 
@@ -623,6 +785,8 @@ a {
         margin: 0px 0px 0px 15px;
     }
 
+    /* hero end */
+
     /* habit-start */
 
     .habit-content-1 {
@@ -678,4 +842,45 @@ a {
     }
 
     /* task end */
+
+    /* team start */
+
+    .team {
+        margin-top: 50px;
+    }
+
+    .team-content-2 {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+
+    .item-2 {
+        padding: 140px 0px 140px 0px;
+        order: 1;
+    }
+
+    .item-5 {
+        padding: 140px 0px 140px 0px;
+        order: 2;
+    }
+
+    .item-3 {
+        padding: 140px 0px 140px 0px;
+        order: 3;
+    }
+
+    .item-6 {
+        padding: 140px 0px 140px 0px;
+        order: 4;
+    }
+
+    .item-1 {
+        display: none;
+    }
+
+    .item-4 {
+        display: none;
+    }
+
+    /* team-end */
 }
