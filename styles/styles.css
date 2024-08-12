@@ -335,6 +335,16 @@ a {
     background: rgb(230, 83, 60);
     border-radius: 100%;
     margin-right: 0px;
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 17px solid white;
 }
 
 /* habit-start */
@@ -874,6 +884,15 @@ hr {
         margin-left: 10px;
         width: 30px;
         height: 30px;
+    }
+
+    .triangle {
+        position: absolute;
+        top: 17%;
+        left: 31.5%;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 15px solid white;
     }
 
     .seperation {
