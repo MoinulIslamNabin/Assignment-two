@@ -455,6 +455,10 @@ a {
 
 /* team section start */
 
+.stretch {
+    padding-bottom: 90px;
+}
+
 .team {
     margin-top: 80px;
     display: flex;
@@ -679,26 +683,30 @@ a {
 
 /* footer start */
 
+
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .footer-content-1 {
     width: 40%;
+    margin: -20px 0px 0px 0px;
 }
 .footer-content-2 {
     width: 20%;
-    margin: 0px 0px 0px 35px;
+    margin: 60px 0px 0px 35px;
 }
 .footer-content-3 {
     width: 20%;
+    margin: 60px 0px 0px 0px;
 }
 
 .footer-title {
     color: rgb(230, 83, 60);   
-    margin: 35px 0px 0px 0px;
+    margin: 25px 0px 20px 0px;
 }
 
 .footer-description {
@@ -707,15 +715,21 @@ a {
 }
 
 .get-started {
-
+    margin: 0px 0px 30px 0px;
 }
 
 .footer-list>li {
     list-style: none;
+    margin-bottom: 20px;
 }
 
 hr {
     opacity: 0.1;
+}
+
+.rights {
+    text-align: center;
+    margin: 25px 0px 25px 0px;
 }
 
 
@@ -944,6 +958,7 @@ hr {
     /* task end */
 
     /* team start */
+
 
     .team {
         margin-top: 50px;
