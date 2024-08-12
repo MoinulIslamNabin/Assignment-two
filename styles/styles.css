@@ -243,6 +243,7 @@ a {
     background: transparent;
     border: 1px solid rgb(230, 83, 60);
     color: rgb(230, 83, 60);
+    padding: 0% 3%;
 }
 
 .btn-secondary {
@@ -462,6 +463,120 @@ a {
 }
 
 /* task section end */
+
+/* bmi section start */
+
+.bmi {
+    width: 70%;
+    margin: 80px 150px 0px 150px;
+    text-align: left;
+}
+
+.bmi-section-title {
+    margin: 0px 0px 20px 0px;
+}
+
+.bmi-section-description {
+    line-height: 24px;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.calculator-title {
+    margin: 40px 0px 0px 0px;
+}
+
+.calculator-description {
+    line-height: 24px;
+    margin: 15px 0px 35px 0px;
+}
+
+.calculator-1 {}
+
+.calculator-2 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+
+
+.input-feild {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+.input-item-1,
+.input-item-2,
+.input-item-3,
+.input-item-4,
+.input-item-5 {
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0px 0px 0px 15px;
+}
+
+.input-item-1 {
+    grid-column: span 3;
+}
+
+.input-item-2 {
+    grid-column: span 3;
+}
+
+.input-item-3 {
+    grid-column: span 3;
+}
+
+.input-item-4 {
+    grid-column: span 3;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-item-5 {
+    grid-column: span 6;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-btn {
+    margin-bottom: 40px;
+}
+
+select:focus,
+select:hover,
+option:hover,
+option:focus,
+input:hover {
+    background-color:rgba(0, 0, 0, 0.9);
+    border: 1px solid rgb(230, 83, 60);
+}
+
+.input-item-1:hover,
+.input-item-2:hover, 
+.input-item-3:hover,
+.input-item-4:hover {
+    padding: 0% 0% 0% 6%;
+}
+
+.input-item-5:hover {
+    padding: 0% 0% 0% 2.99%;
+}
+
+
+/* bmi section end */
 
 /* team section start */
 
@@ -705,17 +820,19 @@ a {
     width: 40%;
     margin: -20px 0px 0px 0px;
 }
+
 .footer-content-2 {
     width: 20%;
     margin: 60px 0px 0px 35px;
 }
+
 .footer-content-3 {
     width: 20%;
     margin: 60px 0px 0px 0px;
 }
 
 .footer-title {
-    color: rgb(230, 83, 60);   
+    color: rgb(230, 83, 60);
     margin: 25px 0px 20px 0px;
 }
 
