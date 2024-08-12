@@ -26,8 +26,8 @@ span {
     background-color: #000000;
 }
 
-.bgGray {
-    background-color: #222222;
+.bgGrey {
+    background-color: rgb(34, 34, 34);
 }
 
 .font100 {
@@ -36,6 +36,10 @@ span {
 
 .font78 {
     font-size: 78px;
+}
+
+.font60 {
+    font-size: 60px;
 }
 
 .font48 {
@@ -76,6 +80,10 @@ span {
 
 .fontw800 {
     font-weight: 800;
+}
+
+.fontw700 {
+    font-weight: 700;
 }
 
 .fontw600 {
@@ -423,12 +431,20 @@ a {
     text-align: left;
     margin-bottom: 30px;
     line-height: 24px;
-    width: 90%;
+    width: 60%;
 }
 
 .task>img {
     width: 31%;
     border-radius: 18px;
+}
+
+.img-def {
+    transition: all 0.3s ease-in-out;
+}
+
+.img-def:hover {
+    transform: scale(.95);
 }
 
 .img-resp {
@@ -661,6 +677,50 @@ a {
 
 /* team end */
 
+/* footer start */
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-1 {
+    width: 40%;
+}
+.footer-content-2 {
+    width: 20%;
+    margin: 0px 0px 0px 35px;
+}
+.footer-content-3 {
+    width: 20%;
+}
+
+.footer-title {
+    color: rgb(230, 83, 60);   
+    margin: 35px 0px 0px 0px;
+}
+
+.footer-description {
+    line-height: 24px;
+    text-align: left;
+}
+
+.get-started {
+
+}
+
+.footer-list>li {
+    list-style: none;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+
+
+
 
 /* responsive */
 
@@ -674,6 +734,10 @@ a {
 
     .font78 {
         font-size: 36px;
+    }
+
+    .font60 {
+        font-size: 40px;
     }
 
     .font48 {
@@ -859,6 +923,10 @@ a {
 
     .t-br {
         display: block;
+    }
+
+    .task-section-description {
+        width: 90%;
     }
 
     .task>img {
