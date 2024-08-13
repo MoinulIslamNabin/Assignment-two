@@ -135,7 +135,7 @@ body {
 }
 
 .bgGradient {
-    background-image: repeating-linear-gradient(#000000 -20%, #242323 50%, #000000 100%);
+    background-image: linear-gradient(#000000 -20%, #242323 50%, #000000 100%);
     height: 680px;
 }
 
@@ -392,11 +392,11 @@ a {
     border-radius: 100%;
     transition: border 0.3s ease-in-out;
     cursor: pointer;
-    
+
     &:hover {
-    border: 5px solid rgb(230, 83, 60);
-    ;
-}
+        border: 5px solid rgb(230, 83, 60);
+        ;
+    }
 }
 
 .card-title {
@@ -446,7 +446,7 @@ a {
 
 .img-def {
     transition: all 0.3s ease-in-out;
-    
+
     &:hover {
         transform: scale(.95);
     }
@@ -739,7 +739,7 @@ input:focus {
     &:hover {
         transform: scale(1.025);
     }
-    
+
     &::before {
         content: "";
         position: absolute;
@@ -886,12 +886,12 @@ input:focus {
     &:hover {
         transform: scale(1.115);
         background: #E6533C;
-        
+
         .price {
             background: #000000;
             transform: scale(1.15) translateX(9px);
         }
-       
+
     }
 }
 
@@ -983,6 +983,22 @@ hr {
 }
 
 /* footer end */
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(#000000 -20%, #242323 50%, #000000 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E6533C;
+}
+
+/* custom scroll bar */
 
 /* responsive */
 
@@ -1373,6 +1389,16 @@ hr {
     }
 
     /* footer end */
+
+    /* custom scroll bar */
+
+
+    ::-webkit-scrollbar-thumb {
+        background: #E6533C;
+    }
+
+    /* custom scroll bar */
+
 }
 
 /* responsive end */
