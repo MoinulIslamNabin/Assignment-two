@@ -243,7 +243,7 @@ a {
     background: transparent;
     border: 1px solid rgb(230, 83, 60);
     color: rgb(230, 83, 60);
-    padding: 0% 3%;
+    padding: 0% 9%;
 }
 
 .btn-secondary {
@@ -495,15 +495,28 @@ a {
     margin: 15px 0px 35px 0px;
 }
 
-.calculator-1 {}
+table {
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 13px 25px 13px 20px;
+}
 
 .calculator-2 {
     display: flex;
     flex-direction: column;
     width: 48%;
 }
-
-
 
 .input-feild {
     display: grid;
@@ -523,10 +536,11 @@ a {
 .input-item-3,
 .input-item-4,
 .input-item-5 {
-    border: none;
+    border: 1px solid  rgba(255, 255, 255, 0.01);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 0px 0px 0px 15px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .input-item-1 {
@@ -555,24 +569,19 @@ a {
     margin-bottom: 40px;
 }
 
+select {
+    cursor: pointer;
+}
+
 select:focus,
 select:hover,
 option:hover,
 option:focus,
-input:hover {
+input:hover,
+input:focus {
     background-color:rgba(0, 0, 0, 0.9);
     border: 1px solid rgb(230, 83, 60);
-}
-
-.input-item-1:hover,
-.input-item-2:hover, 
-.input-item-3:hover,
-.input-item-4:hover {
-    padding: 0% 0% 0% 6%;
-}
-
-.input-item-5:hover {
-    padding: 0% 0% 0% 2.99%;
+    outline: none;
 }
 
 
