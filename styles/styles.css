@@ -996,6 +996,7 @@ hr {
 
 ::-webkit-scrollbar-thumb {
     background: #E6533C;
+    border-radius: 15px;
 }
 
 /* custom scroll bar */
@@ -1395,6 +1396,7 @@ hr {
 
     ::-webkit-scrollbar-thumb {
         background: #E6533C;
+        border-radius: 15px;
     }
 
     /* custom scroll bar */
