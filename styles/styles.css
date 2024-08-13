@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 
-span {
+.great-vibes-font {
     font-family: "Great Vibes", cursive;
 }
 
@@ -19,7 +19,12 @@ span {
     max-width: 1000px;
     margin: 0 auto;
     padding: .5px;
+}
 
+.container-pro {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: .5px;
 }
 
 .bgBlack {
@@ -467,7 +472,7 @@ a {
 
 .bmi {
     width: 70%;
-    margin: 80px 150px 0px 150px;
+    margin: 90px 150px 0px 150px;
     text-align: left;
 }
 
@@ -820,6 +825,105 @@ input:focus {
 
 /* team end */
 
+/* unique/plan start */
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plan-content-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-title {
+    width: 50%;
+    text-align: right;
+    margin-right: 60px;
+    line-height: 55px;
+}
+
+.plan-title>span {
+    color: #E6533C;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+
+.arrow-1 {
+    margin-right: -20px;
+    width: 45%;
+}
+
+.arrow-2 {
+    margin-left: -35px;
+    width: 55%;
+}
+
+.plan-content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.plan-card {
+    margin-left: 25px;
+    border-radius: 18px;
+    padding: 20px;
+    background: rgb(34, 34, 34);
+    width: 25%;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.125);
+    }
+}
+
+
+.plan-card:first-child {
+    margin-left: 0px;
+}
+
+.plan-card-title {
+    margin: 0px 0px 10px 5px;
+}
+
+.price {
+    border-radius: 35px;
+    padding: 10px 16px;
+    background: #E6533C;
+    width: 50%;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.15) translateX(9px);
+        
+    }
+
+}
+
+.plan-card-description {
+    width: 100%;
+    margin: 0px 0px 0px 5px;
+}
+
+
+/* unique/plan end */
+
 /* footer start */
 
 
@@ -936,7 +1040,6 @@ hr {
 
     .container {
         padding: 10px 15px;
-
     }
 
     /* header section */
@@ -1191,6 +1294,14 @@ hr {
     }
 
     /* team-end */
+
+    /* plan/unique start */
+
+    .plan {
+
+    }
+
+    /* plan/unique end */
 
     /* footer start */
 
