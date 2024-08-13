@@ -536,7 +536,7 @@ td {
 .input-item-3,
 .input-item-4,
 .input-item-5 {
-    border: 1px solid  rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 0px 0px 0px 15px;
@@ -579,7 +579,7 @@ option:hover,
 option:focus,
 input:hover,
 input:focus {
-    background-color:rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid rgb(230, 83, 60);
     outline: none;
 }
@@ -858,6 +858,12 @@ input:focus {
 .footer-list>li {
     list-style: none;
     margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-list>li:hover {
+    transform: translateX(10px);
+
 }
 
 hr {
@@ -1094,6 +1100,50 @@ hr {
     }
 
     /* task end */
+
+    /* bmi start */
+
+    .bmi {
+        margin: 30px 0px -60px 0px;
+        width: 85%;
+    }
+
+    .calculator {
+        flex-direction: column;
+    }
+
+    .calculator-2 {
+        width: 90%;
+    }
+
+    .input-feild {
+        grid-template-columns: 56px 55px 56px 56px 55px 56px;
+        grid-template-rows: 45px 45px 45px;
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+
+    .input-item-1,
+    .input-item-2,
+    .input-item-3,
+    .input-item-4,
+    .input-item-5 {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .input-item-4,
+    .input-item-5 {
+        padding: 0px 0px 0px 8px;
+    }
+    
+    
+    .input-btn {
+        padding: 16px 40px;
+        width: 65%;
+        font-size: 18px;
+    }
+
+    /* bmi end */
 
     /* team start */
 
