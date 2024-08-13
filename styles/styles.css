@@ -231,7 +231,7 @@ a {
     border-radius: 42px;
     padding: 16px 40px;
     background: rgb(230, 83, 60);
-    border: none;
+    border: 1px solid rgb(230, 83, 60);
     margin-right: 14px;
     margin-left: 0px;
     text-align: center;
@@ -243,7 +243,6 @@ a {
     background: transparent;
     border: 1px solid rgb(230, 83, 60);
     color: rgb(230, 83, 60);
-    padding: 0% 9%;
 }
 
 .btn-secondary {
@@ -571,6 +570,12 @@ td {
 
 select {
     cursor: pointer;
+}
+
+select,
+option,
+input {
+    transition: all 0.3s ease-in-out;
 }
 
 select:focus,
