@@ -525,9 +525,9 @@ td {
     opacity: 0.6;
 }
 
-.input-item-1,
-.input-item-2,
-.input-item-3,
+#input-item-1,
+#input-item-2,
+#input-item-3,
 .input-item-4,
 .input-item-5 {
     border: 1px solid rgba(255, 255, 255, 0.01);
@@ -537,16 +537,52 @@ td {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.input-item-1 {
+#input-item-1 {
     grid-column: span 3;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgb(230, 83, 60);
+        outline: none;
+    }
+
+    &:focus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgb(230, 83, 60);
+        outline: none;
+    }
 }
 
-.input-item-2 {
+#input-item-2 {
     grid-column: span 3;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgb(230, 83, 60);
+        outline: none;
+    }
+
+    &:focus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgb(230, 83, 60);
+        outline: none;
+    }
 }
 
-.input-item-3 {
+#input-item-3 {
     grid-column: span 3;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgb(230, 83, 60);
+        outline: none;
+    }
+
+    &:focus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 1px solid rgb(230, 83, 60);
+        outline: none;
+    }
 }
 
 .input-item-4 {
@@ -574,11 +610,7 @@ input {
 }
 
 select:focus,
-select:hover,
-option:hover,
-option:focus,
-input:hover,
-input:focus {
+select:hover {
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid rgb(230, 83, 60);
     outline: none;
@@ -911,7 +943,7 @@ input:focus {
     width: 50%;
     cursor: pointer;
     margin-bottom: 30px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -1242,9 +1274,9 @@ hr {
     }
 
     .input-feild {
-        grid-template-columns: 56px 55px 56px 56px 55px 56px;
+        grid-template-columns: 55px 55px 55px 55px 55px 55px;
         grid-template-rows: 45px 45px 45px;
-        gap: 12px;
+        gap: 13px;
         margin-bottom: 25px;
     }
 
@@ -1390,6 +1422,18 @@ hr {
     }
 
     /* footer end */
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
 
 }
 
