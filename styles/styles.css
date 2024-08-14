@@ -895,6 +895,7 @@ select:hover {
 
     &:hover {
         transform: scale(1.35);
+        rotate: .25turn ;
     }
 }
 
@@ -1380,6 +1381,15 @@ hr {
         align-items: center;
         width: 80%;
         margin: 0px 0px 20px 0px;
+
+        &:hover {
+            transform: scale(1.055);
+            background: #E6533C;
+
+            .price {
+                    background: #000000;
+                    transform: scale(1.15) ;
+                }
     }
 
     .plan-card-title {
