@@ -496,6 +496,15 @@ table {
 table,
 th,
 td {
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 16px;
+}
+
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
 }
@@ -514,8 +523,7 @@ td {
 
 .input-feild {
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px 70px 70px;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     margin-bottom: 35px;
 }
@@ -533,12 +541,13 @@ td {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 0px 0px 0px 15px;
     color: rgba(255, 255, 255, 0.6);
+    padding: 15px 10px;
+    
 }
 
 #input-item-1 {
-    grid-column: span 3;
+    
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.9);
@@ -554,7 +563,7 @@ td {
 }
 
 #input-item-2 {
-    grid-column: span 3;
+    
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.9);
@@ -570,7 +579,6 @@ td {
 }
 
 #input-item-3 {
-    grid-column: span 3;
 
     &:hover {
         background-color: rgba(0, 0, 0, 0.9);
@@ -586,13 +594,14 @@ td {
 }
 
 .input-item-4 {
-    grid-column: span 3;
     color: rgba(255, 255, 255, 0.6);
+    padding: 15px 5px;
 }
 
 .input-item-5 {
-    grid-column: span 6;
+    grid-column: span 2;
     color: rgba(255, 255, 255, 0.6);
+    padding: 15px 5px;
 }
 
 .input-btn {
@@ -1274,24 +1283,23 @@ hr {
     }
 
     .input-feild {
-        grid-template-columns: 50px 50px 50px 50px 50px 50px;
-        grid-template-rows: 45px 45px 45px;
-        gap: 13px;
         margin-bottom: 25px;
-        max-width: 500px;
     }
 
-    .input-item-1,
-    .input-item-2,
-    .input-item-3,
+    #input-item-1,
+    #input-item-2,
+    #input-item-3,
     .input-item-4,
     .input-item-5 {
-        padding: 0px 0px 0px 10px;
+        padding: 15px 10px;
+
+        width: 86%;
     }
 
     .input-item-4,
     .input-item-5 {
-        padding: 0px 0px 0px 8px;
+        padding: 15px 5px;
+        width: 100%;
     }
 
 
@@ -1358,7 +1366,7 @@ hr {
     .plan-title {
         text-align: center;
         margin: 30px 0px;
-        width: 70%;
+        width: 80%;
         line-height: 35px;
     }
 
