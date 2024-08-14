@@ -1278,6 +1278,7 @@ hr {
         grid-template-rows: 45px 45px 45px;
         gap: 13px;
         margin-bottom: 25px;
+        max-width: 500px;
     }
 
     .input-item-1,
