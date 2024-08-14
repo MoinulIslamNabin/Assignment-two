@@ -1158,21 +1158,23 @@ hr {
     }
 
     .img-1 {
-        margin-top: 100px;
-        margin-left: 60px;
+        
+        margin-left: 16%;
         width: 75%;
         height: auto;
     }
 
     .blur-1 {
-        width: 130px;
+        max-width: 135px;
+        width: 50%;
         height: 60px;
         top: 10%;
         left: 60%;
     }
 
     .blur-2 {
-        width: 150px;
+        max-width: 150px;
+        width: 50%;
         height: 70px;
         right: 64%;
         top: 42%;
@@ -1293,8 +1295,9 @@ hr {
     .input-item-4,
     .input-item-5 {
         padding: 15px 10px;
-
+        
         width: 86%;
+        
     }
 
     .input-item-4,
@@ -1390,6 +1393,7 @@ hr {
                     background: #000000;
                     transform: scale(1.15) ;
                 }
+        }
     }
 
     .plan-card-title {
